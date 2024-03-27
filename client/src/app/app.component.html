@@ -1,0 +1,44 @@
+
+<main class="main">
+  <div class="header">
+    <nav class="navbar navbar-expand-lg bg-primary bg-gradient navbar-dark">
+      <div class="container-fluid">
+        <span class="navbar-brand text-white">EPMN System</span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/add">Add Employee</a>
+            </li>
+          </ul>
+          <span class="social-icons"></span>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="content container-fluid">
+    <!-- <h1 class="text-center mt-3 mb-3">{{title}}</h1> -->
+    <router-outlet />
+  </div>
+
+  <div class="footer">
+    <footer class="page-footer">
+      <div class="bg-light py-4 py-md-5 py-xl-8 border-top border-light-subtle">
+        <div class="container overflow-hidden">
+          <div class="copyright text-center">
+            &copy; 2024. All Rights Reserved.
+          </div>
+          <div class="credits text-secondary text-center mt-2 fs-7">
+            Built by <a href="https://github.com/hoangdta/" class="link-secondary text-decoration-none">&#64;Github hoangdta</a><span class="text-primary"> &#9829;</span>
+          </div> 
+        </div>
+      </div>
+    </footer>
+  </div>
+</main>

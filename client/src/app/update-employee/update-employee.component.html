@@ -1,0 +1,27 @@
+<div class="col-md-8 offset-md-3 mt-3">
+
+    <h3 class="mb-3">Update the employee</h3>
+    
+    <form (ngSubmit) = "onSubmit()">
+
+        <div class="form-group mb-3">
+            <Label class="form-label">First Name</Label>
+            <input type="text" class="form-control" name="firstName" [(ngModel)]="employee.firstName" required>
+        </div>
+        
+        <div class="form-group mb-3">
+            <Label class="form-label">Last Name</Label>
+            <input type="text" class="form-control" name="lastName" [(ngModel)]="employee.lastName" required>
+        </div>
+
+        <div class="form-group mb-3">
+            <Label class="form-label">Email</Label>
+            <input type="text" class="form-control" name="email" [(ngModel)]="employee.email" required>
+        </div>
+
+        <button class="btn btn-success mt-3" type="submit">
+            Update
+        </button>
+    </form>
+</div>
+
